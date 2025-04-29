@@ -1,5 +1,3 @@
-agents:
-  queue: aws
 steps:
   - label: ":go: :test_tube: Test"
     command: go test -v ./...
