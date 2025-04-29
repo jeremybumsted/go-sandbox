@@ -6,7 +6,7 @@ steps:
     plugins:
       - docker#v5.12.0:
           image: "golang:1.24.2" 
-  - label: ":go: :female-construction-worker: Build"
+  - label: ":female-construction-worker: Build"
     command: go build -o /sandbox .
     depends_on: "test"
     plugins:
